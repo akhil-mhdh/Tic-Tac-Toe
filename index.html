@@ -1,0 +1,36 @@
+</!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+     <script src="script.js"></script>
+</head>
+<body>
+    <div class="box">
+    <h1 id="title">Tic-Tac-Toe</h1>
+    <div class="XO" id="XO">
+        <input type="button" value="X" id="bt1" onclick="one();assign('X','O')"></input>
+        <input type="button" value="O"  id="bt2" onclick="one();assign('O','X')"></input>
+        <p id="msg">Choose X or O </p>
+    </div>
+        <table>
+            <tr>
+                <td  id="0"></td>
+                <td  id="1"></td>
+                <td  id="2"></td>
+            </tr>
+            <tr>
+                <td  id="3"></td>
+                <td  id="4"></td>
+                <td  id="5"></td>
+            </tr>
+            <tr>
+                <td  id="6"></td>
+                <td  id="7"></td>
+                <td  id="8"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
