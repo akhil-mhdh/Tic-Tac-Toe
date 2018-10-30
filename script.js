@@ -20,7 +20,7 @@ const startGame=()=>{
     setTimeout(()=>{    document.getElementById('msg').innerHTML="Ai:"+scorecard.Ai;
     setTimeout(()=>{    document.getElementById('msg').innerHTML="Tie:"+scorecard.Tie;
     setTimeout(()=>{    document.getElementById('msg').innerHTML='Reset';
-},1000)
+},1000);
 },1000);
 },1000);
 },1000);
